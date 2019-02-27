@@ -1,0 +1,19 @@
+.main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  text-align: center;
+}
+
+.loader > img {
+  margin-top: 100px;
+  animation: blink 0.9s ease 0s alternate infinite;
+}
+
+@keyframes blink {
+  0%{ opacity: 1; }
+  100%{ opacity: 0; }
+}
